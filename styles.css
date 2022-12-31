@@ -1,0 +1,131 @@
+@font-face {
+	font-family: georgia;
+}
+
+body {
+	height: 921px;
+	background-image: linear-gradient(#4C6592, #001438);
+}
+
+.sideMenuBorder {
+	position: absolute;
+	left: 50px;
+	top: 150px;
+	width: 200px;
+	height: 615px;
+	border: 15px ridge #085884;
+	background-color: #9DCCFC;
+	font-family: georgia, verdana, arial;
+	
+}
+
+.topMenuBorder {
+	position: fixed;
+	left: -15px;
+	top: -15px;
+	width: 100vw;
+	height: 100px;
+	border: 15px outset #085884;
+	background-color: #9DCCFC;
+}
+
+.paraBorder {
+	
+	position: absolute;
+	float: right;
+	top: 150px;
+	left: 287px;
+	height: 639px;
+	width: 1550px;
+	background-image: linear-gradient(to bottom right, #FFFFFF, #A6E0FF);
+	border: 3px solid #021F2F;
+	
+}
+	
+.logoBorder {
+
+	position: absolute;
+	left: 15px;
+
+}
+
+.imgBorder {
+	position: absolute;
+	border: 5px ridge #021F2F;
+}
+
+.sideMenuHeaderText {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.menuSubText {
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	word-wrap: break-word;
+	font-size: 16px;
+}
+
+.topMenuText {
+	
+	position: absolute;
+	font-family: georgia, verdana, arial;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+
+.paraTitle {
+	
+	font-family: georgia, verdana, arial;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.paraText1 {
+	
+	font-family: georgia, verdana, arial;
+	padding-left: 25px;
+	padding-right: 750px;
+	font-size: 16px;
+	
+}
+
+.paraText2 {
+	
+	font-family: georgia, verdana, arial;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-size: 16px;
+	
+}
+
+.addressText {
+
+	font-family: georgia, verdana, arial;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	font-size: 16px;
+}
+
+.vertLine {
+	
+	position: absolute;
+	border: 1px inset #265C94;
+	top: -2px; 
+	height: 100px;
+	width: 0px;
+
+}
+
+.horzLine {
+	
+	border: 1px inset #265C94;
+	height: 0px;
+	width: 198px;
+
+}
