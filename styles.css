@@ -1,13 +1,18 @@
 @font-face {
+	
 	font-family: georgia;
+	
 }
 
 body {
-	height: 921px;
+	
+	height: 923px;
 	background-image: linear-gradient(#4C6592, #001438);
+	
 }
 
 .sideMenuBorder {
+	
 	position: absolute;
 	left: 50px;
 	top: 150px;
@@ -20,6 +25,7 @@ body {
 }
 
 .topMenuBorder {
+	
 	position: fixed;
 	left: -15px;
 	top: -15px;
@@ -27,12 +33,12 @@ body {
 	height: 100px;
 	border: 15px outset #085884;
 	background-color: #9DCCFC;
+	
 }
 
 .paraBorder {
 	
 	position: absolute;
-	float: right;
 	top: 150px;
 	left: 287px;
 	height: 639px;
@@ -50,22 +56,36 @@ body {
 }
 
 .imgBorder {
+	
 	position: absolute;
 	border: 5px ridge #021F2F;
+	
+}
+
+.artParaBorder {
+	
+	height: 35px;
+	
+	background-color: #FFFFFF;
+	
 }
 
 .sideMenuHeaderText {
+	
 	text-align: center;
 	font-weight: bold;
 	font-size: 24px;
+	
 }
 
 .menuSubText {
+	
 	position: relative;
 	padding-left: 20px;
 	padding-right: 20px;
 	word-wrap: break-word;
 	font-size: 16px;
+	
 }
 
 .topMenuText {
@@ -84,6 +104,7 @@ body {
 	padding-right: 25px;
 	font-size: 24px;
 	font-weight: bold;
+	
 }
 
 .paraText1 {
@@ -110,6 +131,15 @@ body {
 	padding-left: 25px;
 	padding-bottom: 25px;
 	font-size: 16px;
+	
+}
+
+.artText {
+	
+	font-family: georgia, verdana, arial;
+	font-size: 12px;
+	text-align: center;
+	
 }
 
 .vertLine {
